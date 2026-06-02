@@ -6,5 +6,6 @@ function calculateTotal(subtotal, tax, tip) {
   return total;
 }
 
-calculateTotal(50, 0.08, 0.2);
-console.log(total);
+var myTotal = calculateTotal(50, 0.08, 0.2);
+
+console.log(myTotal);
